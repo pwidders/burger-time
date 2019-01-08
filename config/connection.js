@@ -10,11 +10,12 @@ if (process.env.JAWSDB_URL) {
         host: "localhost",
         user: "root",
         password: "password",
-        database: "burgers_db"
+        database: "burgers_db",
+        port: 3306
     });
 };
 
-// Provide feedback if connection was made, or error
+// Connect and verify
 connection.connect(function(err) {
     if (err) {
         console.error("error connecting: " + err.stack);
