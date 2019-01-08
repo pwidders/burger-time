@@ -22,6 +22,7 @@
             res.json({ id: result.insertId });
         });
     });
+
     // Set burger devoured status to true.
     router.put("/api/burgers/:id", function(req, res) {
         var condition = "id = " + req.params.id;

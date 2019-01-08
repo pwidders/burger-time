@@ -13,11 +13,10 @@
                 Add a Burger order below
             </p>
             <hr>
-            <form action="/api/friends" method="POST" name="add-burger">
+            <form class="addBurger">
                 <div class="form-group">
-                    <input type="text" id="newburger" name="burger" placeholder="Enter burger here">
-                    {{!-- Create a button in index.handlebars that will submit the user input into the database. --}}
-                    <button type="submit" class="btn btn-success" id="addburger"><span class="fa fa-check"></span></button>
+                    <input type="text" id="addBurger" name="burger" placeholder="Enter burger here">
+                    <button type="submit" class="btn btn-success" id="addBurger-button"><span class="fa fa-check"></span></button>
                 </div>
             </form>
     </div>
