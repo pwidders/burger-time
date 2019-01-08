@@ -18,6 +18,9 @@
     app.engine("handlebars", exphbs({ defaultLayout: "main" }));
     app.set("view engine", "handlebars");
 
+// Path to static image on index page
+app.use(express.static("./public/assets/img")); 
+
 // Import routes and give the server access to them.
     var routes = require("./controllers/burgers_controller.js");
     app.use(routes);

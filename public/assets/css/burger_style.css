@@ -1,36 +1,60 @@
+/* font-family: 'Staatliches', cursive;*/
+
 .jumbotron {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin-top: 10px;
-}
-
-.jumbotron > h1 {
-    font-family: 'Creepster', cursive;
-}
-
-#newburger {
-    border-radius: 5px;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 1px;
+    border-style: dashed;
+    background-color: antiquewhite !important;
 }
 
 #color-override {
     color: #fff;
 }
 
-#lefthead {
-    background-color: #5cb85c;
-    color: white;
+#left-card-header {
+    background-color: lightcoral;
     text-align: center;
     font-size: 1.2em;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+
+#right-card-header {
+    background-color: rgb(250, 250, 118);
+    text-align: center;
+    font-size: 1.2em;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 1px;
+    border-radius: 5px;
 }
 
 #eatbutton, #trashbutton {
     float: right;
 }
 
-#righthead {
-    background-color: #f0ad4e;
-    color: white;
-    text-align: center;
-    font-size: 1.2em;
+.card {
+    border-radius: 10px;
+    border: 2px dashed black;
+    background-color: antiquewhite;
+}
+
+ul {
+    padding: 10px;
+}
+
+#angus {
+    width: 25%;
+}
+
+body {
+    background-color: black !important;
 }
